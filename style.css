@@ -1,0 +1,130 @@
+/*
+Style.css
+Fichier Css associé au fichier cv_en_ligne.html
+*/
+
+/* Définition d'une nouvelle police CaviarDreams */
+@font-face { 
+    font-family: 'CaviarDreams';
+    src: url('font/CaviarDreams-webfont.eot');
+    src: url('font/CaviarDreams-webfont.eot') format('embedded-opentype'),
+         url('font/CaviarDreams-webfont.woff') format('woff'),
+         url('font/CaviarDreams-webfont.ttf') format('truetype'),
+         url('font/CaviarDreams-webfont.svg') format('svg');
+}
+
+/*Image de Fond*/
+body{
+	background-image: url("fond1.jpg");
+    background-attachment: fixed; /* Le fond restera fixe */
+    background-repeat: repeat; /* Le fond sera répété */
+    color:#FFFFFF;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+/*Les titres*/
+h1,h2{
+	font-family:'CaviarDreams';
+}
+
+h1{
+	color:#FF358B;
+	text-align: center;
+	font-size:40px;
+}
+
+h2{
+	color:#01B0F0;
+	font-size:30px;
+}
+
+@media all and (max-width: 1024px)
+{
+	h2{
+	font-size:20px;
+	}
+	body{
+	font-size:15px;
+}
+}
+
+/*Photo id*/
+img{
+	border:3px #AEEE00 solid;
+	float:right;
+	border-radius:10px;
+	margin-bottom:25px;
+}
+
+/*paragraphe*/
+p{
+	text-align:center;
+	text-shadow: 4px 2px 4px #AEEE00;
+	border:2px ;
+}
+
+strong{
+	color:#AEEE00;
+	font-weight:bolder;
+}
+
+
+/*Les listes */
+
+ul em{
+	font-style:oblique;
+	font-family:'CaviarDreams';
+}
+
+/*Les blocs*/
+
+section{
+	width:25%;
+	padding: 10px;
+	margin-left:1%;
+	box-shadow: 6px 4px 10px #333333;
+	border-radius:10px;
+	background-color:rgba(0,0,0,0.6);
+	display: inline-block;    
+    vertical-align: top;
+    position:relative;
+}
+
+@media all and (max-width: 1024px)
+{
+	section{
+	display:block;
+	position:relative;
+	 width:100%;
+}
+}
+
+header{
+	height:200px;
+    position: relative;
+    margin-bottom: 5px;
+   
+}
+
+/*Le liseret*/
+#liseret{
+	float: left;
+    width: 10%;
+    height: 1200px;
+    background: blue;
+    margin-top:-20px;
+    margin-right:30px;
+    vertical-align:top;
+    background-color:#01B0F0;
+    border-radius:10px;
+}
+
+@media all and (max-width: 1024px)
+{
+    #liseret
+    {
+        display: none;
+    }
+}
+
