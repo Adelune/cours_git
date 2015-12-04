@@ -1,17 +1,8 @@
 /*
 Style.css
-Fichier Css associé au fichier cv_en_ligne.html
+Fichier Css associé au fichier index.html
 */
 
-/* Définition d'une nouvelle police CaviarDreams */
-@font-face { 
-    font-family: 'CaviarDreams';
-    src: url('font/CaviarDreams-webfont.eot');
-    src: url('font/CaviarDreams-webfont.eot') format('embedded-opentype'),
-         url('font/CaviarDreams-webfont.woff') format('woff'),
-         url('font/CaviarDreams-webfont.ttf') format('truetype'),
-         url('font/CaviarDreams-webfont.svg') format('svg');
-}
 
 /*Image de Fond*/
 body{
@@ -24,9 +15,6 @@ body{
 }
 
 /*Les titres*/
-h1,h2{
-	font-family:'CaviarDreams';
-}
 
 h1{
 	color:#FF358B;
