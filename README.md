@@ -1,3 +1,4 @@
 # cours_git
+==================
 
-Un Repository créé dans le cadre d'un cours Openclassroom
+Un Repository crÃ©Ã© dans le cadre d'un cours Openclassroo
