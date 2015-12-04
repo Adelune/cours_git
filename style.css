@@ -1,14 +1,14 @@
 /*
 Style.css
-Fichier Css associé au fichier index.html
+Fichier Css associÃ© au fichier index.html
 */
 
 
 /*Image de Fond*/
 body{
-	background-image: url("fond1.jpg");
+	background-color:black;
     background-attachment: fixed; /* Le fond restera fixe */
-    background-repeat: repeat; /* Le fond sera répété */
+    background-repeat: repeat; /* Le fond sera rÃ©pÃ©tÃ© */
     color:#FFFFFF;
     font-family:Arial, Helvetica, sans-serif;
     
